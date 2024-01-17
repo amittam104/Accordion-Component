@@ -15,8 +15,7 @@ body {
   background-color: hsl(275, 100%, 97%);
   position: relative;
 }
-.container {
-}
+
 .bg-img {
   min-width: 100%;
 }
@@ -24,7 +23,7 @@ body {
   position: absolute;
   display: inline-block;
   background-color: #fff;
-  max-width: 50rem;
+  width: 50rem;
   box-shadow: 0 0 8px 1px rgba(32, 32, 32, 0.15);
   border-radius: 1.2rem;
   top: 50%;
@@ -35,7 +34,7 @@ body {
 
 .faq {
   border-bottom: 0.8px solid #dedede85;
-  padding-bottom: 1.8rem;
+  padding-bottom: 1.2rem;
   margin-bottom: 1.8rem;
 }
 
@@ -58,6 +57,11 @@ body {
   width: 2.2rem;
 }
 
+.button {
+  background-color: #fff;
+  border: none;
+}
+
 .question-line {
   display: flex;
   align-items: center;
@@ -66,16 +70,26 @@ body {
 }
 
 .header--h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.4;
   max-width: 90%;
 }
 
-.icon-open {
+.buttons {
+  position: relative;
+  top: -1.6rem;
+}
+
+.icon {
+  position: absolute;
   max-width: 2.2rem;
 }
 
 .answer {
   font-size: 1.2rem;
   line-height: 1.4;
+}
+
+.hidden {
+  display: none;
 }
