@@ -24,24 +24,58 @@ body {
   position: absolute;
   display: inline-block;
   background-color: #fff;
-  max-width: 70rem;
+  max-width: 50rem;
+  box-shadow: 0 0 8px 1px rgba(32, 32, 32, 0.15);
+  border-radius: 1.2rem;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 0);
   padding: 1.6rem 3.2rem;
 }
 
+.faq {
+  border-bottom: 0.8px solid #dedede85;
+  padding-bottom: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.faq--last {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .header--h1 {
   font-size: 3.2rem;
-  margin-bottom: 2.8rem;
+  margin-bottom: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.8rem;
+}
+
+.icon-star {
+  width: 2.2rem;
+}
+
+.question-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
 }
 
 .header--h2 {
-  font-size: 1.4rem;
-  margin-bottom: 0.6rem;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  max-width: 90%;
+}
+
+.icon-open {
+  max-width: 2.2rem;
 }
 
 .answer {
   font-size: 1.2rem;
-  margin-bottom: 2.8rem;
+  line-height: 1.4;
 }
